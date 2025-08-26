@@ -6,6 +6,7 @@ CREATE TABLE MANAGER (
     FOREIGN KEY (reports_to) REFERENCES MANAGER(manager_id)
 );
 
+
 -- Then create Department table
 CREATE TABLE Department (
     department_name VARCHAR(50) PRIMARY KEY,
